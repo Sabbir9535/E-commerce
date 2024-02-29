@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--nav starts here -->
+    <i class="fas fa-bars fa-2x " id="menu_icon"></i>
+
+    <nav id="menu" class="hidden">
+    <ul class="nav_upper flex-space-around">
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Home</a>
+        </li>
+        <li class="nav_list">
+            <a href="register.html" class="nav_link">Register</a>
+        </li>
+        <li class="nav_list">
+            <a href="login.html" class="nav_link">Login</a>
+        </li>
+        <li class="nav_list">
+            <a href="index.html" class="nav_link">Logout</a>
+        </li>
+        <li class="nav_list">
+            <a href="contact.html" class="nav_link">Contact</a>
+        </li>
+        <li class="nav_list">
+            <a href="profile.html" class="nav_link">
+                <img class="profile-icon" src="profile.jpg" alt="profile icon">
+            </a>
+        </li>
+    </ul>
+    <ul class="nav_lower flex-space-around">
+        <li class=" nav_brand nav_list"><a href="index.html" class="nav_link">Sabbir Express</a></li>
+        <li class="nav_list"><a href="cart.html" class="nav_link">
+            <span><i class="fa solid fa-cart-shopping"></i></span>cart 2 products -$124.34
+        </a></li>
+    </ul>
+
+   </nav>
+     <!--nav emds here -->
+
+    <!--main start here-->
+        <main class="flex_center">
+            <div class="main_content">
+                <section class="product_details flex_center">
+                    <div class="product_details_left flex_center">
+                        <img src="profile.jpg" alt="profile">
+                    </div>
+                    <div class="product_details_right">
+                        <h3 class="product_name">
+                            Sony v-4 headphone
+                           </h3>
+                           <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                           </p>
+                           <p class="product_description">
+                            <strong>Description</strong>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, provident iste eum veritatis pariatur commodi id minima numquam facilis optio eius quod, voluptates aut.
+                           </p>
+                           <h4 class="product_category">Category:Headphone</h4>
+                           <h4 class="product_price">Price:
+                            $225.99
+                           </h4>
+                           <p class="product_rating">
+                            Rating:
+                            4.5/5
+                           </p>
+                           <button class="btn product_btn">Add To Cart</button>
+                           <button class="btn product_btn">Back To Shopping</button>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+    <!--main ends here-->
+
+     <!--footer start here--> 
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe"
+             class="fotter_input"
+             placeholder="Your Email Address"/>
+             <button class="btn btn_subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy;copyright 2024 Sabbir Express All rights rserved</p>
+        </div>
+     </footer>
+     <script src="index.js"></script>
+     <!--footer end here--> 
+    
+</body>
+</html>
